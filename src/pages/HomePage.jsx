@@ -1,6 +1,6 @@
 import Slider from "../components/Slider/Slider";
 import Details from "../components/Details/Details";
-import Portfolio from "../components/Portfolio";
+import Portfolio from "../components/Portfolio/Portfolio";
 import AdditionalDetails from "../components/AdditionalDetails/AdditionalDetails";
 import Follow from "../components/Follow";
 import Contact from "../components/Contact";
