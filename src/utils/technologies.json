@@ -1,0 +1,26 @@
+{
+	"technologies": [
+		{
+			"techList": ["MongoDB", "Mongoose", "Models", "Databases"]
+		},
+		{
+			"techList": ["Server Setup", "RESTful API", "Templating", "Routing"]
+		},
+		{
+			"techList": [
+				"Redux",
+				"Mobile Styling",
+				"Custom Styling",
+				"State Management"
+			]
+		},
+		{
+			"techList": [
+				"Package Manager",
+				"Encryption",
+				"Authentication",
+				"File System"
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"laptops": [
+		"HTML5",
+		"HTML5 Canvas",
+		"CSS3",
+		"CSS Animation/Keyframes",
+		"Bootstrap 3/4",
+		"Materialize",
+		"Handlebars",
+		"JQuery",
+		"Javascript ES5/ES6",
+		"Animate.css",
+		"Ace text editor"
+	],
+	"others": [
+		"Passport",
+		"CORS",
+		"Jsonwebtoken",
+		"Axios",
+		"Mocha/Chai",
+		"Nightmare",
+		"Bcrypt",
+		"Firebase",
+		"Socket.io",
+		"MVC Structure"
+	],
+	"mobiles": [
+		"Github",
+		"Heroku",
+		"Godaddy",
+		"Trello",
+		"Agile Development",
+		"Adobe Photoshop",
+		"Adobe Illustrator",
+		"Adobe After Effects",
+		"Fighter Factory"
+	]
+}
