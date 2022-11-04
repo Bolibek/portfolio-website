@@ -1,31 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faArrowAltCircleRight,
-	faArrowRight,
-	faArrowRightArrowLeft,
-	faArrowRightToBracket,
-	faArrowRightToCity,
-	faArrowRightToFile,
-	faArrowsAltV,
-	faArrowsLeftRight,
-	faArrowsLeftRightToLine,
-	faArrowsSplitUpAndLeft,
-	faArrowsToCircle,
-	faArrowsToEye,
-	faArrowsV,
-	faCompressArrowsAlt,
-	faLessThan,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 const createMarkup = require("../../utils/library.js").createMarkup;
 
 function PortfolioCard(props) {
-	const { urlDemo, urlCode, title, details, headImg } = props;
+	const { urlDemo, urlCode, title, details, headImage } = props;
 	return (
-		<div className="flex flex-col w-64 mx-5">
-			<div className="card-image">
-				<img src={headImg} alt="" />
+		<div className="flex flex-col w-64 mx-5 h-48">
+			<div className="card-image h-20">
+				<img src={headImage} alt={title}  />
 			</div>
-			<div className="flex flex-col items-center absolute z-50 opacity-0 hover:opacity-100 bg-[#ffffffc1] w-64 h-48">
+			<div className="flex flex-col items-center absolute  z-50 opacity-0 hover:opacity-100 bg-[#ffffffc1] w-64 h-40">
 				<div className="flex flex-col items-center ">
 					<a href={urlDemo} target="_blank">
 						<h5 className="">
@@ -35,7 +19,7 @@ function PortfolioCard(props) {
 							></strong>
 						</h5>
 					</a>
-					<div className="text-xs grid grid-cols-3 grid-flow-row my-3 px-3">
+					<div className="text-xs grid grid-cols-3 grid-flow-row my-1 px-3">
 						{details.map((detail, index) => {
 							return (
 								<div
@@ -49,7 +33,7 @@ function PortfolioCard(props) {
 						<div className="" />
 					</div>
 				</div>
-				<div className="">
+				<div className="text-xs">
 					<a
 						target="_blank"
 						href={urlDemo}
