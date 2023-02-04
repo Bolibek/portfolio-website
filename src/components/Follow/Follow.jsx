@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import linkedin from "../../assets/img/linkedin.png";
-
 import "./Follow.css";
 
 class Follow extends Component {
@@ -15,17 +13,17 @@ class Follow extends Component {
 							<div className="flex flex-row">
 								<div className="-mt-[.1rem]">
 									<a href="https://github.com/Bolibek">
-										<img src="https://img.icons8.com/ios-glyphs/63/ffffff/github.png" />
+										<img alt="" src="https://img.icons8.com/ios-glyphs/63/ffffff/github.png" />
 									</a>
 								</div>
 								<div>
 									<a href="https://www.facebook.com/fayzullaev.bolibek.9">
-										<img src="https://img.icons8.com/glyph-neue/67/ffffff/facebook.png" />
+										<img alt="" src="https://img.icons8.com/glyph-neue/67/ffffff/facebook.png" />
 									</a>
 								</div>
 								<div className="mx-0.5 mt-0.5">
 									<a href="https://www.linkedin.com/in/bolibek/">
-										<img src="https://img.icons8.com/ios-filled/60/ffffff/linkedin.png"/>
+										<img alt="" src="https://img.icons8.com/ios-filled/60/ffffff/linkedin.png"/>
 									</a>
 								</div>
 							</div>

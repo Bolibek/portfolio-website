@@ -7,11 +7,11 @@ function PortfolioCard(props) {
 	return (
 		<div className="flex flex-col w-64 mx-5 h-48">
 			<div className="card-image h-20">
-				<img src={headImage} alt={title}  />
+				<img src={headImage} alt={`${title}`}  />
 			</div>
 			<div className="flex flex-col items-center absolute  z-50 opacity-0 hover:opacity-100 bg-[#ffffffc1] w-64 h-40">
 				<div className="flex flex-col items-center ">
-					<a href={urlDemo} target="_blank">
+					<a href={urlDemo}>
 						<h5 className="">
 							<strong
 								className="text-2xl"
@@ -19,7 +19,7 @@ function PortfolioCard(props) {
 							></strong>
 						</h5>
 					</a>
-					<div className="text-xs grid grid-cols-3 grid-flow-row my-1 px-3">
+					<div className="text-xs grid grid-cols-3 grid-flow-row my-1 ">
 						{details.map((detail, index) => {
 							return (
 								<div
@@ -33,9 +33,9 @@ function PortfolioCard(props) {
 						<div className="" />
 					</div>
 				</div>
-				<div className="text-xs">
+				<div className="text-xs absolute bottom-10">
 					<a
-						target="_blank"
+					
 						href={urlDemo}
 						className="bg-indigo-700 rounded-sm mx-1 p-1 text-white"
 					>
@@ -43,7 +43,7 @@ function PortfolioCard(props) {
 						<strong className="ml-1 mr-4">DEMO</strong>
 					</a>
 					<a
-						target="_blank"
+					
 						href={urlCode}
 						className="bg-indigo-700 rounded-sm mx-1 p-1 text-white"
 					>

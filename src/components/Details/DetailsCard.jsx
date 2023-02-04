@@ -12,7 +12,7 @@ export default function DetailsCard({ techList = [], headImg }) {
 				<img
 					className="mb-2"
 					src={headImg}
-					alt="Head Image"
+					alt="HeadImage"
 					width={"240px"}
 					height={"70px"}
 				/>

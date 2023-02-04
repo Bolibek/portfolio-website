@@ -1,9 +1,7 @@
-import { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.css";
 
 function Contact() {
-	const [comment, setComment] = useState("");
 	const [state, handleSubmit] = useForm("xlevpokd");
 	if (state.succeeded) {
 		return <p className="h-[40rem] flex justify-center items-center text-5xl">Thanks for joining!</p>;
