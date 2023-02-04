@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import "./AboutMe.css";
 import myPhoto from "../../assets/img/photo_2022-09-12_01-36-12.jpg";
 
@@ -9,7 +8,7 @@ function AboutMe() {
 				<div className="mr-5">
 					<img
 						src={`${myPhoto}`}
-						alt="My Photo"
+						alt="MyPhoto"
 						width={"350px"}
 						height={"350px"}
 						className="rounded-full"

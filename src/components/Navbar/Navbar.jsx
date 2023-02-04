@@ -16,7 +16,7 @@ export default function Navbar() {
 				<div className="flex flex-row justify-between">
 					<a href="#nav">
 						<div className="flex flex-row">
-							<img src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/80/000000/external-keyboard-design-tools-xnimrodx-lineal-gradient-xnimrodx.png" />
+							<img alt="" src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/80/000000/external-keyboard-design-tools-xnimrodx-lineal-gradient-xnimrodx.png" />
 						</div>
 					</a>
 					<div className="full-name text-[3.1rem] text-gray-600 ml-4 mt-5">

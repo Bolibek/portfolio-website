@@ -9,7 +9,7 @@ function Portfolio() {
 				My Recent <span className="text-indigo-500">Portfolio</span> Pieces!
 			</h4>
 			<h5 className="my-3">Click on arrows, drag, or swipe!</h5>
-			<div className=" flex flex-row">
+			<div className=" grid  grid-cols-3 w-[70%] ">
 				{portfolioObjects.map((portfolioObject, index) => {
 					return <PortfolioCard {...portfolioObject} key={index} />;
 				})}
